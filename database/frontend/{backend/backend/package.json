@@ -1,0 +1,8 @@
+{
+  "name": "mams-backend",
+  "version": "1.0.0",
+  "description": "Military Asset Management System - REST API (zero runtime dependencies, Node >= 22.13)",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node src/server.js", "seed": "node src/seed.js", "test": "node src/test.js" }
+}
